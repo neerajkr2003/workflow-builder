@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "compilerOptions": {
     "target": "ES2020",
     "module": "commonjs",
@@ -27,4 +28,11 @@
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
+=======
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+>>>>>>> 8b166a5c7b058ee020d79786eaeb6e97b607ba2d
 }
